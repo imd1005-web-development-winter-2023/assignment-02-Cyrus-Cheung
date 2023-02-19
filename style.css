@@ -13,25 +13,25 @@
   justify-content: space-around;
   align-items: center;
   background-color: black;
-  gap: 1vw;
+  gap: 1rem;
 }
 
 .logo {
-  height: 10vh;
-  padding: 1vh 0vh;
+  height: 5rem;
+  padding: 1rem 0rem;
 }
 
 .header li a {
   display: flex;
   color: white;
   text-decoration: none;
-  font-size: 3vh;
+  font-size: 2rem;
 
   display: inline-block;
   position: relative;
   z-index: 1;
-  padding: 1vw 1vw;
-  margin: -2vw;
+  padding: 1rem 1rem;
+  margin: -2rem;
 }
 
 .nav {
@@ -40,8 +40,8 @@
   justify-content: space-between;
   flex-wrap: nowrap; 
   list-style: none;
-  gap: 7vw;
-  padding: 1vw;
+  gap: 7rem;
+  padding: 1rem;
 }
 
 .banner {
