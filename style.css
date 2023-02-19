@@ -7,7 +7,20 @@
   font-family: genshinFont;
 }
 
+.header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  background-color: black;
+}
+
+.logo {
+  height: 10vh;
+  padding: 0.5em 0em;
+}
+
 .header li a {
+  display: flex;
   color: white;
   text-decoration: none;
   font-size: 25px;
@@ -19,15 +32,15 @@
   margin: -2em;
 }
 
-.header {
+.nav {
   display: flex;
   flex-direction: row;
-  justify-content: space-around;
+  justify-content: space-between;
   align-items: center;
   flex-wrap: nowrap; 
   list-style: none;
-  background-color: black;
-  padding: 100;
+  gap: 7em;
+  padding: 1em;
 }
 
 .banner {
