@@ -49,6 +49,11 @@ header {
   padding: 5px 0;
 }
 
+.logoButton {
+  display: flex;
+  height: 100%;
+}
+
 .nav {
   display: flex;
   flex-direction: row;
@@ -97,7 +102,6 @@ main {
   align-items: flex-start;
   position: relative;
   width: 100%;
-  z-index: -1;
 }
 
 .bannerImage {
@@ -107,7 +111,7 @@ main {
 
 .bannerTitle {
   display: flex;
-  font-size: 3vw;
+  font-size: 3.5vw;
   font-weight: normal;
   line-height: normal;
   text-align: center;
@@ -121,6 +125,19 @@ main {
   width: 18vw;
 }
 
+.bannerButton {
+  display: flex;
+  font-size: 0.9vw;
+  text-align: center;
+  width: 12vw;
+
+  text-decoration: none;
+  color: white;
+  background-color: black;
+  padding: 0.5vw;
+  border-radius: 5vw;
+}
+
 .bannerFlex {
   display: flex;
   flex-direction: column;
@@ -128,7 +145,7 @@ main {
   align-items: center;
   position: absolute;
   width: 30vw;
-  height: 13vw;
-  top: 3.5vw;
-  left: 23vw;
+  height: 20vw;
+  top: 3vw;
+  left: 25vw;
 }
