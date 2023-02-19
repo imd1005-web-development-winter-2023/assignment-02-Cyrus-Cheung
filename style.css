@@ -11,36 +11,37 @@
   display: flex;
   flex-direction: row;
   justify-content: space-around;
+  align-items: center;
   background-color: black;
+  gap: 1vw;
 }
 
 .logo {
   height: 10vh;
-  padding: 0.5em 0em;
+  padding: 1vh 0vh;
 }
 
 .header li a {
   display: flex;
   color: white;
   text-decoration: none;
-  font-size: 25px;
+  font-size: 3vh;
 
   display: inline-block;
   position: relative;
   z-index: 1;
-  padding: 1em 1em;
-  margin: -2em;
+  padding: 1vw 1vw;
+  margin: -2vw;
 }
 
 .nav {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  align-items: center;
   flex-wrap: nowrap; 
   list-style: none;
-  gap: 7em;
-  padding: 1em;
+  gap: 7vw;
+  padding: 1vw;
 }
 
 .banner {
