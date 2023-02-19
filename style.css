@@ -109,6 +109,27 @@ main {
   width: 100%;
 }
 
+.socials {
+  display: flex;
+  flex-direction: row;
+  list-style: none;
+  position: absolute;
+  top: 0.5vw;
+  right: 0.5vw;
+  gap: 0.5vw;
+}
+
+.socials li {
+  display: flex;
+  align-items: center;
+  font-size: 1.35vw;
+}
+
+.socIcon {
+  display: flex;
+  width: 3vw;
+}
+
 .heroTitle {
   display: flex;
   font-size: 3.5vw;
