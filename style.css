@@ -7,9 +7,10 @@
   font-family: genshinFont;
 }
 
-a {
+.headerLink {
   color: white;
   text-decoration: none;
+  font-size: 25px;
 }
 
 .header {
