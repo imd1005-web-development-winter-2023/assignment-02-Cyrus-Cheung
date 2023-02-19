@@ -21,7 +21,7 @@
   padding: 1rem 0rem;
 }
 
-.header li a {
+.nav li a {
   display: flex;
   color: white;
   text-decoration: none;
@@ -34,16 +34,33 @@
   margin: -2rem;
 }
 
+.nav li a:hover {
+  text-shadow: 0 0 10px white;
+}
+
 .nav {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  flex-wrap: nowrap; 
+  align-items: center;
+  flex-wrap: nowrap;
+  
   list-style: none;
   gap: 7rem;
   padding: 1rem;
 }
 
 .banner {
+  position: relative;
+}
+
+.bannerImage {
   width: 100%;
+}
+
+.titleText {
+  position: absolute;
+  font-size: 4rem;
+  bottom: 40rem;
+  left: 20rem;
 }
