@@ -11,6 +11,12 @@
   color: white;
   text-decoration: none;
   font-size: 25px;
+
+  display: inline-block;
+  position: relative;
+  z-index: 1;
+  padding: 1em 1em;
+  margin: -2em;
 }
 
 .header {
