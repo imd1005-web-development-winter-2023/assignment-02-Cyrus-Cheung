@@ -318,6 +318,7 @@ main {
 }
 
 .form * {
+  justify-content: center;
   list-style: none;
 }
 
