@@ -122,12 +122,28 @@ main {
 .socials li {
   display: flex;
   align-items: center;
-  font-size: 1.35vw;
+  font-size: 1.4vw;
 }
 
 .socIcon {
   display: flex;
   width: 3vw;
+}
+
+.shareButton {
+  display: flex;
+  font-size: 1.15vw;
+  text-align: center;
+
+  text-decoration: none;
+  color: white;
+  background-color: black;
+  padding: 0.5vw 1.6vw;
+  border-radius: 0.8vw;
+
+  position: absolute;
+  right: 0.5vw;
+  top: 3.5vw;
 }
 
 .heroTitle {
