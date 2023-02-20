@@ -301,3 +301,37 @@ main {
   text-decoration: none;
   left: 2vw;
 }
+
+
+
+
+
+
+.form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1vw;
+  margin: 10vw;
+
+  color: white;
+}
+
+.form * {
+  list-style: none;
+}
+
+.footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: left;
+  align-items: center;
+  flex-wrap: nowrap;
+  background-color: black;
+  position: relative;
+  height: 4vw;
+}
+
+.footLogo {
+  width: 20vw;
+}
