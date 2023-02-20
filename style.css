@@ -324,14 +324,25 @@ main {
 .footer {
   display: flex;
   flex-direction: row;
-  justify-content: left;
+  justify-content: space-between;
   align-items: center;
   flex-wrap: nowrap;
   background-color: black;
   position: relative;
   height: 4vw;
+  margin: 0 1vw;
 }
 
 .footLogo {
-  width: 20vw;
+  width: 13vw;
+}
+
+.footImage {
+  height: 100%;
+}
+
+.copyright {
+  font-size: 1vw;
+  color: white;
+  margin: 0 1vw;
 }
