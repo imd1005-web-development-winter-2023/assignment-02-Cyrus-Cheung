@@ -1,29 +1,113 @@
 <!DOCTYPE html>
 <html lang="en-ca">
+
   <head>
-    <!-- Set the page title -->
-    <title>Assignment 02</title>
-
-    <!-- Set the charset we're using to UTF-8 -->
-    <meta charset="UTF-8" />
-
-    <!-- Set the screens default zoom / scale to 1 -->
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Ninja Nuns</title>
     
-    <!-- Specifies the document mode for Internet Explorer -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="style.css">
 
-    <!-- We are using a CSS Reset file to standardize browser default css -->
-    <link rel="stylesheet" href="reset.css" />
-
-    <!-- This is where all of our awesome CSS code goes -->
-    <link rel="stylesheet" href="style.css" />
+    <link rel="shortcut icon" type="image/png" href="icon.png">
   </head>
+
   <body>
-    <!--
 
-      YOU HAVE TO MODIFY THE HTML TO BUILD YOUR AWESOME PAGE
+    <header>
+      <div class="header">
+        <a class="logoButton" href="index.html"><img class="logo" draggable="false" src="logo.png" alt="Ninja Nuns logo"></a>
+        <nav>
+            <ul class="nav">
+              <li><a href="error.html">About</a></li>
+              <li><a href="error.html">Wiki</a></li>
+              <li><a href="error.html">Characters</a></li>
+              <li><a href="error.html">Contact</a></li>
+              <li><a href="error.html">Merch</a></li>
+            </ul>
+        </nav>
+      </div>
+    </header>
+    
+    <main>
 
-    -->
+      <section class="hero">
+        <img class="heroImage" draggable=false src="banner.png" alt="Banner image featuring Irene, Chloe, Nancy and Alexis in front of a city">
+        <ul class="socials">
+          <li><p>Visit us:</p></li>
+          <li><a href="error.html"><img class="socIcon" draggable="false" src="instaicon_black.png" alt="Instagram icon"></a></li>
+          <li><a href="error.html"><img class="socIcon" draggable="false" src="twittericon_black.png" alt="Twitter icon"></a></li>
+          <li><a href="error.html"><img class="socIcon" draggable="false" src="tiktokicon_black.png" alt="TikTok icon"></a></li>
+          <li><a href="error.html"><img class="socIcon" draggable="false" src="youtubeicon_black.png" alt="Youtube icon"></a></li>
+          <li><a href="error.html"><img class="socIcon" draggable="false" src="discordicon_black.png" alt="Discord icon"></a></li>
+          <li><a class="shareButton" href="error.html">Share!</a></li>
+        </ul>
+        <div class="heroFlex">
+          <h1 class="heroTitle">An exciting new adventure...</h1>
+          <p class="heroText">A thrilling tale of NINJA NUNS fighting DEMONS!</p>
+          <a class="heroButton" href="error.html">Read the comic on Webtoon!</a>
+        </div>
+      </section>
+
+      <div class="intro">
+        <img class="introLogo" draggable="false" src="logo.png" alt="Ninja Nuns">
+        <div class="synopsis">
+          <img class="nunset" draggable="false" src="nunset.png" alt="An image of Nancy from behind, gazing at the clouds">
+          <p class="synopsisText">The world is plagued by demons. Standing in stern opposition are the Ninja Nuns, who fight them using powerful elemental abilities.<br><br>Follow Nancy's journey as she explores the strange world that she has never looked in the eye...</p>
+          <img class="cross" draggable="false" src="cross.png" alt="">
+        </div>
+      </div>
+
+      <div class="characters">
+        <div class="nancyPose">
+          <img class="nancyImage" draggable="false" src="nancy.png" alt="An image of Nancy">
+          <div class="rectangle" draggable="false"></div>
+        </div>
+        <div class="buttons">
+          <div><a href="error.html"><img class="nancy" draggable="false" src="button_nancy.png" alt="Image of a confused Nancy reading a book"><p class="btext textRight">Learn the Elements</p></a></div>
+          <div><a href="error.html"><img class="irene" draggable="false" src="button_irene.png" alt="Image of Irene striking a seductive pose"><p class="btext textLeft">Meet the characters</p></a></div>
+          <div><a href="error.html"><img class="alexis" draggable="false" src="button_alexis.png" alt="Image of Alexis being flustered"><p class="btext textRight">Send feedback</p></a></div>
+          <div><a href="error.html"><img class="chloe" draggable="false" src="button_chloe.png" alt="Image of Chloe flashing her drippy new 80s shades"><p class="btext textLeft">Buy some merch</p></a></div>
+        </div>
+      </div>
+
+      <section class="form">
+        <h2>Sign up for our newsletter!</h2>
+        <form>
+          <ul>
+            <li>
+              <label for="name">Name:</label>
+              <input type="text" id="name" name="name" placeholder="Your name here...">
+            </li>
+            <li>
+              <label for="email">Email:</label>
+              <input type="email" id="email" name="email" placeholder="youremail@email.com">
+            </li>
+            <li><button type="submit">Submit</button></li>
+          </ul>
+        </form>
+      </section>
+
+    </main>
+
+    <footer>
+      <div class="copyright">©2023 Cyrus Cheung</div>
+      <div class="footer">
+        <a class="footLogo" href="index.html"><img class="footImage" draggable="false" src="logo.png" alt="Ninja Nuns logo"></a>
+        <nav>
+            <ul class="nav">
+              <li><a href="error.html">About</a></li>
+              <li><a href="error.html">Wiki</a></li>
+              <li><a href="error.html">Characters</a></li>
+              <li><a href="error.html">Contact</a></li>
+              <li><a href="error.html">Merch</a></li>
+            </ul>
+        </nav>
+      </div>
+
+    </footer>
+
   </body>
+
 </html>
